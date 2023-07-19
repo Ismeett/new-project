@@ -6,6 +6,7 @@ import Products from "../../sections/Products";
 import HackSection from "../../sections/HackSection";
 import Benefits from "../../sections/Benefits";
 import Clients from "../../sections/Clients";
+import Footer from "../../sections/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <HackSection />
       <Benefits />
       <Clients />
+      <Footer />
     </main>
   );
 }

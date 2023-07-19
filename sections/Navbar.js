@@ -5,10 +5,10 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="container mx-auto pt-3">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center md:justify-between justify-center">
         <Image src="/../public/logo.png" width="125" height="25" />
 
-        <ul className="cursor-pointer flex space-x-4 w-7/12 text-[#737373] font-bold">
+        <ul className="cursor-pointer md:flex space-x-4 w-7/12 text-[#737373] font-bold hidden">
           <Link href="/">
             <li>Home</li>
           </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
           </Link>
         </ul>
 
-        <div className="flex">
+        <div className="md:flex hidden ">
           <button className="text-[#23A6F0] font-bold mr-10">Login</button>
           <button className="bg-[#23A6F0] text-white font-bold px-6 py-3 rounded flex items-center">
             <span className="mr-2">Become a member</span>
