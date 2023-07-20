@@ -12,7 +12,7 @@ const Clients = () => {
           realms of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-5 px-20">
+      <div className="grid md:grid-cols-3  gap-5 md:px-20 px-5">
         <Card />
         <Card />
         <Card />

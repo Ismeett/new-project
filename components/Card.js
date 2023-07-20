@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Card = () => {
   return (
-    <div className="py-32">
+    <div className="md:py-32 py-6">
       <div className="border px-8 py-10">
         <Image src="/../public/stars.png" width="125" height="125" />
         <p className="text-[#737373] font-bold py-6">

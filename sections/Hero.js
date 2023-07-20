@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="container mx-auto py-20">
       <div className="flex flex-col items-center">
-        <h1 className="text-6xl text-[#252B42] max-w-xl text-center">
+        <h1 className="md:text-6xl text-4xl text-[#252B42] max-w-xl text-center">
           How To Make Good Things Great
         </h1>
         <p className="text-[#737373] text-center py-10 text-lg max-w-lg">

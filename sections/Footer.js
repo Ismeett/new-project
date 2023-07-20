@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="bg-[#252B42] py-32">
         <div className="flex flex-col justify-center items-center text-white">
           <p className="text-4xl">Ready to get started?</p>
-          <p className="my-6">
+          <p className="my-6 md:text-left text-center">
             An audio book, eBook, and interview series for people who make
             things.
           </p>

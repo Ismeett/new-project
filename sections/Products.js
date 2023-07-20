@@ -13,7 +13,7 @@ const Products = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 items-center gap-10  py-12">
+      <div className="grid md:grid-cols-2 items-center gap-10  py-12">
         <div className="relative w-2/3">
           <Image src="/../public/half-browser.png" width="500" height="125" />
           <Image
