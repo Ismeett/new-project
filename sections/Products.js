@@ -6,8 +6,8 @@ const Products = () => {
   return (
     <div className="py-32">
       <div className="flex flex-col justify-center items-center">
-        <p className="text-[#252B42] text-4xl">Featured Products</p>
-        <p className="text-[#737373] text-center pt-4">
+        <p className="text-blue-700 text-4xl">Featured Products</p>
+        <p className="text-gray-700 text-center pt-4">
           Problems trying to resolve the conflict between <br /> the two major
           realms of Classical physics: Newtonian mechanics.
         </p>

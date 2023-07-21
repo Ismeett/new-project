@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="flex items-center md:justify-between justify-between md:px-0 px-5">
         <Image src="/../public/logo.png" width="125" height="25" />
 
-        <ul className="cursor-pointer md:flex space-x-4 w-7/12 text-[#737373] font-bold hidden">
+        <ul className="cursor-pointer md:flex space-x-4 w-6/12 text-gray-700 font-bold hidden">
           <Link href="/">
             <li>Home</li>
           </Link>
@@ -31,8 +31,10 @@ const Navbar = () => {
         </ul>
 
         <div className="md:flex hidden ">
-          <button className="text-[#23A6F0] font-bold mr-10">Login</button>
-          <button className="bg-[#23A6F0] text-white font-bold px-6 py-3 rounded flex items-center">
+          <button className="text-blue-300 font-bold mr-10 px-6 py-3">
+            Login
+          </button>
+          <button className="bg-blue-300 text-white font-bold px-6 py-3 rounded flex items-center">
             <span className="mr-2">Become a member</span>
             <Image src="/../public/arrow.png" width="14" height="20" />
           </button>
@@ -48,7 +50,7 @@ const Navbar = () => {
       <div
         className={`md:hidden ${
           nav ? "block" : "hidden"
-        } my-4 flex justify-center items-center text-[#737373] text-lg font-medium text-center`}
+        } my-4 flex justify-center items-center text-gray-700 text-lg font-medium text-center`}
       >
         <ul>
           <Link href="/">
