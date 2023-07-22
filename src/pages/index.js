@@ -7,6 +7,7 @@ import HackSection from "../../sections/HackSection";
 import Benefits from "../../sections/Benefits";
 import Clients from "../../sections/Clients";
 import Footer from "../../sections/Footer";
+import Counter from "../../sections/Counter";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HackSection />
       <Benefits />
       <Clients />
+      <Counter />
       <Footer />
     </main>
   );
