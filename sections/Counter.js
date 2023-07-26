@@ -1,38 +1,34 @@
 import React from "react";
 import { useState } from "react";
 
-const Counter = () => {
-  const [count, setCount] = useState(0);
+function multiplyByTen(number) {
+  return number * 10;
+}
 
-  const multiplyByTwo = () => {
-    setCount(count * 2);
-  };
+function Counter() {
+  // const [inputNumber, setInputNumber] = useState(20);
+  const numberToMultiply = 2;
+  const result = multiplyByTen(numberToMultiply /*inputNumber*/);
 
   return (
-    <div className="py-32 flex flex-col justify-center items-center">
-      <p className="text-4xl text-blue-700 mb-6">You clicked {count} times</p>
-      <div className="flex flex-col space-y-10">
-        <button
-          className=" bg-blue-300 px-6 py-3 text-white rounded font-bold"
-          onClick={() => setCount(count + 1)}
-        >
-          Add by +1
-        </button>
-        <button
-          className=" bg-blue-300 px-6 py-3 text-white rounded font-bold"
-          onClick={() => setCount(0)}
-        >
-          Back to 0
-        </button>
-        <button
-          className=" bg-blue-300 px-6 py-3 text-white rounded font-bold"
-          onClick={() => setCount(count * 2)}
-        >
-          Multiply by *2
-        </button>
-      </div>
+    <div className="flex flex-col justify-center items-center pb-32">
+      {/* <label>
+        Enter a number:{" "}
+        <input
+          type="number"
+          placeholder="Enter a number"
+          value={inputNumber}
+          onChange={(e) => setInputNumber(Number(e.target.value))}
+        />
+      </label> */}
+      <p className="text-4xl text-blue-700">Original Number:</p>
+      <p className="my-6 text-2xl text-gray-700">
+        {numberToMultiply /*inputNumber*/}
+      </p>
+      <p className="text-4xl text-blue-700">Result:</p>
+      <p className="my-6 text-2xl text-gray-700">{result}</p>
     </div>
   );
-};
+}
 
 export default Counter;
